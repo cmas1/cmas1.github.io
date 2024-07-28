@@ -1,14 +1,14 @@
 ---
 layout: page
-title: submenus
+title: open positions
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: publications
+  - title: theses
     permalink: /publications/
   - title: divider
-  - title: projects
+  - title: phd
     permalink: /projects/
   - title: divider
   - title: blog
