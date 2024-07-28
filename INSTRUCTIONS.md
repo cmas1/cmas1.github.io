@@ -13,6 +13,11 @@ Afterwards, to work on the local website, need to start the docker
 $ docker compose up
 This will not only launch the locak website, but any change to the code will automatically update it
 
+ALTERNATIVELY,
+
+can just use the old way
+$ bundle exec jekyll serve
+
 #### 3. Deploy
 To deploy the website it is enough to commit and push the repo
 
