@@ -5,6 +5,7 @@ description: Where am I? Where is everything else?
 img: assets/img/research/localization/cover.jpg
 importance: 1
 category: spatial intelligence
+related_publications: false
 ---
 
 <div class="row">
