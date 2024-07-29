@@ -1,6 +1,6 @@
 ---
 layout: page
-title: open positions
+title: people
 nav: true
 nav_order: 8
 dropdown: true
