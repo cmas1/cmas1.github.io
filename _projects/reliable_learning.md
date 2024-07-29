@@ -63,7 +63,5 @@ One of our solutions, tailored for driving scenes, is [Mask2Anomaly](https://iee
 ---
 <h2>Related Publications</h2>
 <div class="publications">
-  {% bibliography -f papers -q @*[keywords~=uncertainty quantification]*%}
-  {% bibliography -f papers -q @*[keywords~=robust learning]*%}
-  <!-- {% bibliography -f papers -q @*[keywords~=uncertainty]  -q @*[keywords~=robust learning]*%} -->
+  {% bibliography -f papers -q @*[keywords~=uncertainty quantification || keywords~=robust learning]* %}
 </div>
