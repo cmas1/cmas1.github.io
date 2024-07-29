@@ -279,7 +279,7 @@ defaults:
 
 sass:
   style: compressed
-  #sourcemap: never
+  # sourcemap: never
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
