@@ -89,10 +89,26 @@ layout: default
                   {% include resume/work.liquid %}
                 {% when 'volunteer' %}
                   {% include resume/volunteer.liquid %}
+                {% when 'editorial activities' %}
+                  {% include resume/editorial.liquid %}
                 {% when 'projects' %}
                   {% include resume/projects.liquid %}
-                {% when 'awards' %}
+                {% when 'financed projects' %}
+                  {% include resume/projects.liquid %}
+                {% when 'competitive projects' %}
+                  {% include resume/projects.liquid %}
+                {% when 'industrial projects' %}
+                  {% include resume/industrial_projects.liquid %}
+                {% when 'habilitation' %}
+                  {% include resume/habilitation.liquid %}
+                {% when 'honors and awards' %}
                   {% include resume/awards.liquid %}
+                {% when 'service' %}
+                  {% include resume/service.liquid %}
+                {% when 'organization' %}
+                  {% include resume/organization.liquid %}
+                {% when 'tech transfer' %}
+                  {% include resume/tech.liquid %}
                 {% when 'skills' %}
                   {% include resume/skills.liquid %}
                 {% when 'publications' %}
@@ -105,6 +121,8 @@ layout: default
                   {% include resume/certificates.liquid %}
                 {% when 'references' %}
                   {% include resume/references.liquid %}
+                {% when 'talks' %}
+                  {% include resume/talks.liquid %}  
                 {% else %}
 
               {% endcase %}

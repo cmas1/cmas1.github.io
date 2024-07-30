@@ -638,12 +638,13 @@ jsonresume:
   - basics
   - work
   - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+  - financed projects
+  - competitive projects
+  - industrial projects
+  - habilitation
+  - honors and awards
+  - editorial activities
+  - service
+  - organization
+  - tech transfer
+  - talks

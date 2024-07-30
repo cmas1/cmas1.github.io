@@ -3,9 +3,9 @@ layout: cv
 permalink: /cv/
 title: cv
 nav: true
-nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+nav_order: 4
+cv_pdf: Masone_CV.pdf
+description: Brief Curriculum Vitae. For the extended version, please check the pdf version.
 toc:
   sidebar: left
 ---
