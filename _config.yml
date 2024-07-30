@@ -196,6 +196,12 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  research:
+    output: true
+    permalink: /:collection/:title/
+  software:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true 

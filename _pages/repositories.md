@@ -1,18 +1,75 @@
 ---
 layout: page
-permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+permalink: /repositories/
+description: Repositories and software libraries.
 nav: true
 nav_order: 5
+display_categories: [C++]
+horizontal: false
 ---
 
-## GitHub users
+## Highlights
+<div class="projects">
+{% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+  {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+  {% assign categorized_projects = site.software | where: "category", category %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  <!-- Generate cards for each project -->
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
+
+{% else %}
+
+<!-- Display projects without categories -->
+
+{% assign sorted_projects = site.software | sort: "importance" %}
+
+  <!-- Generate cards for each project -->
+
+{% if page.horizontal %}
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endif %}
+</div>
+
+## GitHub stats
 
 {% if site.data.repositories.github_users %}
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
+  {% for user in site.data.software_projects.github_users %}
     {% include repository/repo_user.liquid username=user %}
   {% endfor %}
 </div>
