@@ -202,6 +202,9 @@ collections:
   software:
     output: true
     permalink: /:collection/:title/
+  theses:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true 
