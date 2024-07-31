@@ -1,0 +1,1 @@
+Antonio Tavera completed his Ph.D. at Politecnico di Torino in 2023 with a dissertation titled [Learn to Generalize and Adapt across Domains in Semantic Segmentation](https://iris.polito.it/handle/11583/2979900).

@@ -2,15 +2,15 @@
 layout: page
 title: people
 nav: true
-nav_order: 8
+nav_order: 5
 dropdown: true
 children:
-  - title: theses
-    permalink: /publications/
+  - title: phd students
+    permalink: /phd_students/
   - title: divider
-  - title: phd
-    permalink: /projects/
+  - title: master students
+    permalink: /master_students/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: collaborators
+    permalink: /collaborators/
 ---

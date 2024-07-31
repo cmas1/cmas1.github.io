@@ -4,7 +4,7 @@ title: repositories
 permalink: /repositories/
 description: Repositories and software libraries.
 nav: true
-nav_order: 5
+nav_order: 4
 display_categories: [C++]
 horizontal: false
 ---
