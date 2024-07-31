@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /phd_students/
 title: phd students
-description: PhD students I have supervised
+description: PhD students under my (co-)supervision
 nav: false
 
 profiles:

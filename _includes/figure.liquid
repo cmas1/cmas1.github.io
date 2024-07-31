@@ -68,6 +68,9 @@
       {% elsif site.lazy_loading_images %}
         loading="lazy"
       {% endif %}
+      {% if include.style %}
+        style="{{ include.style }}"
+      {% endif %}
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     >
   </picture>
