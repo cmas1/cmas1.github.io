@@ -1,0 +1,1 @@
+Christian Schenk completed his Ph.D. at the Max Planck Institute for Biological Cybernetics and at the University of Stuttgart in 2019 with a dissertation titled [Modelling and control of a cable-driven parallel robot : methods for vibration reduction and motion quality improvement](https://elib.uni-stuttgart.de/handle/11682/10697).
