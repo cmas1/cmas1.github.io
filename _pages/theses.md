@@ -6,6 +6,7 @@ description: Master thesis available.
 nav: false
 nav_order:
 horizontal: false
+display_categories: [active]
 ---
 
 The list may not be updated swiftly, so please contact me for questions and to see if there are other opportunities.

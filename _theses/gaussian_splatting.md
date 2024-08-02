@@ -4,7 +4,7 @@ title: 3D scene reconstruction and novel view synthesis with Gaussian Splatting.
 description: 3D scene reconstruction.
 img: assets/img/theses/gaussian_splatting/cover.jpg
 importance: 4
-category: visual localization
+category: inactive
 related_publications: false
 ---
 

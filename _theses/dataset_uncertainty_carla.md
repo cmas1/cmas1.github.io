@@ -1,10 +1,10 @@
 ---
 layout: page
-title: A new benchmark for anomaly segmentation in driving scenes.
-description: A new benchmark for anomaly segmentation in driving scenes.
+title: Anomaly segmentation in driving scenes.
+description: A new benchmark and evaluation.
 img: assets/img/theses/dataset_uncertainty_carla/cover.jpg
 importance: 1
-category: uncertainty quantification
+category: active
 related_publications: false
 ---
 
